@@ -1,0 +1,33 @@
+Epoch 1: validation accuracy=0.1528
+Epoch 2: validation accuracy=0.5926
+Epoch 3: validation accuracy=0.8056
+Epoch 4: validation accuracy=0.8333
+Epoch 5: validation accuracy=0.8750
+Epoch 6: validation accuracy=0.8889
+Epoch 7: validation accuracy=0.9352
+Epoch 8: validation accuracy=0.9259
+Epoch 9: validation accuracy=0.9398
+Epoch 10: validation accuracy=0.9630
+Epoch 11: validation accuracy=0.9398
+Epoch 12: validation accuracy=0.9491
+Epoch 13: validation accuracy=0.9630
+Epoch 14: validation accuracy=0.9630
+Epoch 15: validation accuracy=0.9722
+Held-out test accuracy: 0.9611
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99        36
+           1       0.91      0.86      0.89        36
+           2       1.00      1.00      1.00        35
+           3       1.00      0.95      0.97        37
+           4       0.97      0.97      0.97        36
+           5       0.97      1.00      0.99        37
+           6       0.97      0.97      0.97        36
+           7       0.97      1.00      0.99        36
+           8       0.94      0.89      0.91        35
+           9       0.88      1.00      0.94        36
+
+    accuracy                           0.96       360
+   macro avg       0.96      0.96      0.96       360
+weighted avg       0.96      0.96      0.96       360
+
