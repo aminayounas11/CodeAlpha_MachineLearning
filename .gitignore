@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+**/data/raw/
+**/outputs/*.joblib
+**/outputs/*.pt
+**/outputs/*.png
+
+# Keep third-party RAVDESS WAV files and downloaded archive local
+*.wav
+Audio_Speech_Actors_01-24.zip
