@@ -1,0 +1,4 @@
+# Task 1: Credit Scoring Model
+Predict a binary `default` outcome (1 = default risk, 0 = no default) using credit-related tabular features. Compares Logistic Regression and Random Forest with accuracy, precision, recall, F1 and ROC-AUC. Pipeline handles numeric/categorical preprocessing without leakage.
+
+Run: `python Task_1_Credit_Scoring/train.py` from project root. The **default dataset is generated synthetically**; training results do not establish real-world credit scoring capability. To use your own properly sourced, de-identified CSV: `set CREDIT_CSV=your_file.csv` in cmd or `$env:CREDIT_CSV='path/to/data.csv'` in PowerShell, with binary target `default`. Columns can be numeric and categorical. Do not use a credit decision model in production without data rights, calibration, fairness checks, regulations and further validation.
